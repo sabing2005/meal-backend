@@ -1,0 +1,1095 @@
+{
+  "message": "Cart parsed and order created successfully",
+  "success": true,
+  "data": {
+    "order_id": "MC-N191E5",
+    "status": "PENDING",
+    "created_at": "2025-11-04T09:05:43.154Z",
+    "updated_at": "2025-11-04T09:05:43.154Z",
+    "pricing": {
+      "subtotal": 29.5,
+      "fees": 7.42,
+      "taxes": 2.66,
+      "service_fee": 0,
+      "tip": 0,
+      "small_order_fee": 0,
+      "adjustments_fee": 0,
+      "pickup_fee": 0,
+      "other_fees": 0,
+      "total": 39.58,
+      "currency": "USD"
+    },
+    "uber_one": {
+      "has_uber_one": false,
+      "uber_one_benefit": 0,
+      "is_uber_one_eligible": false
+    },
+    "restaurant": {
+      "name": "Subway (720 US Highway 24 South)",
+      "address": "720 Us Highway 24 South, Buena Vista, CO 81211",
+      "hours": "Available at 7:00 AM",
+      "image_url": "https://tb-static.uber.com/prod/image-proc/processed_images/576657f720a3d336d084464c2dbf6fc4/4f3f62f3f5b6932263e7f27923f93b2d.png"
+    },
+    "delivery": {
+      "address": "United States",
+      "instructions": null
+    },
+    "items": [
+      {
+        "name": "Celsius® Sparkling Orange",
+        "quantity": 3,
+        "price": 5.1,
+        "customizations": []
+      },
+      {
+        "name": "Subway® Footlong Cookie",
+        "quantity": 2,
+        "price": 7.1,
+        "customizations": []
+      }
+    ],
+    "customer_details": {
+      "customer_favorite_restaurants": [],
+      "customer_dietary_preferences": [],
+      "customer_payment_methods": [],
+      "customer_delivery_addresses": [],
+      "customer_delivery_address": "United States",
+      "customer_coordinates": {
+        "latitude": 38.7945952,
+        "longitude": -106.5348379
+      },
+      "customer_uuid": "f7cd4530-91e5-404c-a045-48568949ff83",
+      "customer_name": "Guest",
+      "customer_address": "United States",
+      "customer_display_name": "Muhammad's group order",
+      "addParticipantsIntended": true,
+      "storeUuid": "8a81f76a-5cee-56cd-8fa1-76ef4421a485",
+      "state": "UNORDERED",
+      "spendingLimitAmount": {
+        "currencyCode": ""
+      },
+      "shoppingCart": {
+        "cartUuid": "8ce812e2-e37a-4e75-a437-9bf94999f322",
+        "storeUuid": "8a81f76a-5cee-56cd-8fa1-76ef4421a485",
+        "items": [
+          {
+            "shoppingCartItemUuid": "86c561bb-8856-443f-a973-5b13807e6b63",
+            "uuid": "4b5b868e-3faa-546b-bb01-3dc966bd9774",
+            "storeUuid": "8a81f76a-5cee-56cd-8fa1-76ef4421a485",
+            "sectionUuid": "dba03512-6a99-55a2-b1ba-98575eba5ad9",
+            "subsectionUuid": "0379a62a-1156-4ddb-a09a-7e1dc45d5dfb",
+            "consumerUuid": "fcab689c-3748-4f4d-83a1-1af523d93e91",
+            "quantity": 3,
+            "specialInstructions": "",
+            "fulfillmentIssueAction": {},
+            "title": "Celsius® Sparkling Orange",
+            "price": 510,
+            "imageURL": "https://tb-static.uber.com/prod/image-proc/processed_images/3aacb2c2a19967f61bb2f9444bb63a96/0fb376d1da56c05644450062d25c5c84.jpeg",
+            "itemQuantity": {
+              "inSellableUnit": {
+                "value": {
+                  "coefficient": 3,
+                  "exponent": 0
+                },
+                "measurementUnit": {
+                  "measurementType": "MEASUREMENT_TYPE_COUNT",
+                  "length": null,
+                  "weight": null,
+                  "volume": null
+                },
+                "measurementUnitAbbreviationText": ""
+              },
+              "inPriceableUnit": null
+            },
+            "sellingOption": null,
+            "pricedByUnit": null,
+            "numAlcoholicItems": 0,
+            "customizations": {}
+          },
+          {
+            "shoppingCartItemUuid": "a6f1ad3e-b541-4dae-9001-ac3a7fc43937",
+            "uuid": "051b8191-7f05-5168-aaf9-8426d175a10b",
+            "storeUuid": "8a81f76a-5cee-56cd-8fa1-76ef4421a485",
+            "sectionUuid": "dba03512-6a99-55a2-b1ba-98575eba5ad9",
+            "subsectionUuid": "9188dd03-5822-5b9e-a955-3471d35334a1",
+            "consumerUuid": "fcab689c-3748-4f4d-83a1-1af523d93e91",
+            "quantity": 2,
+            "specialInstructions": "",
+            "fulfillmentIssueAction": {},
+            "title": "Subway® Footlong Cookie",
+            "price": 710,
+            "imageURL": "https://tb-static.uber.com/prod/image-proc/processed_images/5474655c4135975d3dc672157d9c222c/0fb376d1da56c05644450062d25c5c84.jpeg",
+            "itemQuantity": {
+              "inSellableUnit": {
+                "value": {
+                  "coefficient": 2,
+                  "exponent": 0
+                },
+                "measurementUnit": {
+                  "measurementType": "MEASUREMENT_TYPE_COUNT",
+                  "length": null,
+                  "weight": null,
+                  "volume": null
+                },
+                "measurementUnitAbbreviationText": ""
+              },
+              "inPriceableUnit": null
+            },
+            "sellingOption": null,
+            "pricedByUnit": null,
+            "numAlcoholicItems": 0,
+            "customizations": {}
+          }
+        ],
+        "groupedItems": [
+          {
+            "items": [],
+            "name": "Guest",
+            "isCurrentUser": true,
+            "c2Namespace": "",
+            "isUnregisteredUser": true,
+            "avatarUrl": "/_static/772b65124f533585.svg",
+            "consumerUuid": "67e316cc-bdb0-5dd9-9435-50ac11edbb57",
+            "confirmed": false,
+            "isCreator": false
+          },
+          {
+            "items": [
+              {
+                "shoppingCartItemUuid": "86c561bb-8856-443f-a973-5b13807e6b63",
+                "uuid": "4b5b868e-3faa-546b-bb01-3dc966bd9774",
+                "storeUuid": "8a81f76a-5cee-56cd-8fa1-76ef4421a485",
+                "sectionUuid": "dba03512-6a99-55a2-b1ba-98575eba5ad9",
+                "subsectionUuid": "0379a62a-1156-4ddb-a09a-7e1dc45d5dfb",
+                "consumerUuid": "fcab689c-3748-4f4d-83a1-1af523d93e91",
+                "quantity": 3,
+                "specialInstructions": "",
+                "fulfillmentIssueAction": {},
+                "title": "Celsius® Sparkling Orange",
+                "price": 510,
+                "imageURL": "https://tb-static.uber.com/prod/image-proc/processed_images/3aacb2c2a19967f61bb2f9444bb63a96/0fb376d1da56c05644450062d25c5c84.jpeg",
+                "itemQuantity": {
+                  "inSellableUnit": {
+                    "value": {
+                      "coefficient": 3,
+                      "exponent": 0
+                    },
+                    "measurementUnit": {
+                      "measurementType": "MEASUREMENT_TYPE_COUNT",
+                      "length": null,
+                      "weight": null,
+                      "volume": null
+                    },
+                    "measurementUnitAbbreviationText": ""
+                  },
+                  "inPriceableUnit": null
+                },
+                "sellingOption": null,
+                "pricedByUnit": null,
+                "numAlcoholicItems": 0,
+                "customizations": {}
+              },
+              {
+                "shoppingCartItemUuid": "a6f1ad3e-b541-4dae-9001-ac3a7fc43937",
+                "uuid": "051b8191-7f05-5168-aaf9-8426d175a10b",
+                "storeUuid": "8a81f76a-5cee-56cd-8fa1-76ef4421a485",
+                "sectionUuid": "dba03512-6a99-55a2-b1ba-98575eba5ad9",
+                "subsectionUuid": "9188dd03-5822-5b9e-a955-3471d35334a1",
+                "consumerUuid": "fcab689c-3748-4f4d-83a1-1af523d93e91",
+                "quantity": 2,
+                "specialInstructions": "",
+                "fulfillmentIssueAction": {},
+                "title": "Subway® Footlong Cookie",
+                "price": 710,
+                "imageURL": "https://tb-static.uber.com/prod/image-proc/processed_images/5474655c4135975d3dc672157d9c222c/0fb376d1da56c05644450062d25c5c84.jpeg",
+                "itemQuantity": {
+                  "inSellableUnit": {
+                    "value": {
+                      "coefficient": 2,
+                      "exponent": 0
+                    },
+                    "measurementUnit": {
+                      "measurementType": "MEASUREMENT_TYPE_COUNT",
+                      "length": null,
+                      "weight": null,
+                      "volume": null
+                    },
+                    "measurementUnitAbbreviationText": ""
+                  },
+                  "inPriceableUnit": null
+                },
+                "sellingOption": null,
+                "pricedByUnit": null,
+                "numAlcoholicItems": 0,
+                "customizations": {}
+              }
+            ],
+            "name": "Muhammad",
+            "isCurrentUser": false,
+            "c2Namespace": "",
+            "isUnregisteredUser": false,
+            "avatarUrl": "/_static/d590fac5df89924d.svg",
+            "consumerUuid": "fcab689c-3748-4f4d-83a1-1af523d93e91",
+            "confirmed": false,
+            "isCreator": true
+          },
+          {
+            "items": [],
+            "name": "Guest",
+            "isCurrentUser": false,
+            "c2Namespace": "",
+            "isUnregisteredUser": true,
+            "avatarUrl": "/_static/21f488d3249d6f03.svg",
+            "consumerUuid": "f15834b6-f1ee-5ba6-8771-a9a2e4932890",
+            "confirmed": false,
+            "isCreator": false
+          },
+          {
+            "items": [],
+            "name": "Guest",
+            "isCurrentUser": false,
+            "c2Namespace": "",
+            "isUnregisteredUser": true,
+            "avatarUrl": "/_static/544c3c3781e0db92.svg",
+            "consumerUuid": "192b9fea-f428-5ba6-9ce3-3e13a073043e",
+            "confirmed": false,
+            "isCreator": false
+          },
+          {
+            "items": [],
+            "name": "Guest",
+            "isCurrentUser": false,
+            "c2Namespace": "",
+            "isUnregisteredUser": true,
+            "avatarUrl": "/_static/21f488d3249d6f03.svg",
+            "consumerUuid": "9007f497-f173-5e32-b13e-13d2662f5240",
+            "confirmed": false,
+            "isCreator": false
+          },
+          {
+            "items": [],
+            "name": "Guest",
+            "isCurrentUser": false,
+            "c2Namespace": "",
+            "isUnregisteredUser": true,
+            "avatarUrl": "/_static/9f716d4b83f1173e.svg",
+            "consumerUuid": "8d8326b9-1537-5c27-9f99-5cd686274e4f",
+            "confirmed": false,
+            "isCreator": false
+          },
+          {
+            "items": [],
+            "name": "Guest",
+            "isCurrentUser": false,
+            "c2Namespace": "",
+            "isUnregisteredUser": true,
+            "avatarUrl": "/_static/9538c4f1cb0d524a.svg",
+            "consumerUuid": "32b8b4ad-e895-5a8b-bd9c-5e94af47b34d",
+            "confirmed": false,
+            "isCreator": false
+          },
+          {
+            "items": [],
+            "name": "Guest",
+            "isCurrentUser": false,
+            "c2Namespace": "",
+            "isUnregisteredUser": true,
+            "avatarUrl": "/_static/21f488d3249d6f03.svg",
+            "consumerUuid": "ef3b35a9-0abf-5975-981f-b72e969a6aeb",
+            "confirmed": false,
+            "isCreator": false
+          },
+          {
+            "items": [],
+            "name": "Guest",
+            "isCurrentUser": false,
+            "c2Namespace": "",
+            "isUnregisteredUser": true,
+            "avatarUrl": "/_static/772b65124f533585.svg",
+            "consumerUuid": "d84b79fe-0dfb-5b4f-96f1-1f2759e2d767",
+            "confirmed": false,
+            "isCreator": false
+          },
+          {
+            "items": [],
+            "name": "Guest",
+            "isCurrentUser": false,
+            "c2Namespace": "",
+            "isUnregisteredUser": true,
+            "avatarUrl": "/_static/9538c4f1cb0d524a.svg",
+            "consumerUuid": "dc952dd8-4593-5fc5-8c40-298d7657f1f2",
+            "confirmed": false,
+            "isCreator": false
+          },
+          {
+            "items": [],
+            "name": "Guest",
+            "isCurrentUser": false,
+            "c2Namespace": "",
+            "isUnregisteredUser": true,
+            "avatarUrl": "/_static/d590fac5df89924d.svg",
+            "consumerUuid": "fdd98e30-5d4e-56f5-ab59-28e085853179",
+            "confirmed": false,
+            "isCreator": false
+          },
+          {
+            "items": [],
+            "name": "Guest",
+            "isCurrentUser": false,
+            "c2Namespace": "",
+            "isUnregisteredUser": true,
+            "avatarUrl": "/_static/d590fac5df89924d.svg",
+            "consumerUuid": "11d453fd-c865-52c2-b77f-5e565c146041",
+            "confirmed": false,
+            "isCreator": false
+          },
+          {
+            "items": [],
+            "name": "Guest",
+            "isCurrentUser": false,
+            "c2Namespace": "",
+            "isUnregisteredUser": true,
+            "avatarUrl": "/_static/d96375ed3fb7384c.svg",
+            "consumerUuid": "8247d050-3c68-57c5-9674-7daebd5ac0e8",
+            "confirmed": false,
+            "isCreator": false
+          },
+          {
+            "items": [],
+            "name": "Guest",
+            "isCurrentUser": false,
+            "c2Namespace": "",
+            "isUnregisteredUser": true,
+            "avatarUrl": "/_static/76cd7fa5fcf22251.svg",
+            "consumerUuid": "ddff6e43-4a5a-5876-b1d5-2f80a6a2a7b5",
+            "confirmed": false,
+            "isCreator": false
+          },
+          {
+            "items": [],
+            "name": "Guest",
+            "isCurrentUser": false,
+            "c2Namespace": "",
+            "isUnregisteredUser": true,
+            "avatarUrl": "/_static/9538c4f1cb0d524a.svg",
+            "consumerUuid": "e5f2546e-4535-56d7-b892-b769f903b5cd",
+            "confirmed": false,
+            "isCreator": false
+          },
+          {
+            "items": [],
+            "name": "Guest",
+            "isCurrentUser": false,
+            "c2Namespace": "",
+            "isUnregisteredUser": true,
+            "avatarUrl": "/_static/9f716d4b83f1173e.svg",
+            "consumerUuid": "7420c49e-1b70-548c-a025-af5eb059c244",
+            "confirmed": false,
+            "isCreator": false
+          },
+          {
+            "items": [],
+            "name": "Guest",
+            "isCurrentUser": false,
+            "c2Namespace": "",
+            "isUnregisteredUser": true,
+            "avatarUrl": "/_static/3ed0fb233b69a3de.svg",
+            "consumerUuid": "274ad323-d761-509e-a141-c04cdc027bd6",
+            "confirmed": false,
+            "isCreator": false
+          },
+          {
+            "items": [],
+            "name": "Guest",
+            "isCurrentUser": false,
+            "c2Namespace": "",
+            "isUnregisteredUser": true,
+            "avatarUrl": "/_static/9538c4f1cb0d524a.svg",
+            "consumerUuid": "4c1bde39-98a5-5db1-8bee-2d9940aa5dad",
+            "confirmed": false,
+            "isCreator": false
+          },
+          {
+            "items": [],
+            "name": "Guest",
+            "isCurrentUser": false,
+            "c2Namespace": "",
+            "isUnregisteredUser": true,
+            "avatarUrl": "/_static/9538c4f1cb0d524a.svg",
+            "consumerUuid": "a0aeeb84-82b0-5be6-a708-4706274defc2",
+            "confirmed": false,
+            "isCreator": false
+          },
+          {
+            "items": [],
+            "name": "Guest",
+            "isCurrentUser": false,
+            "c2Namespace": "",
+            "isUnregisteredUser": true,
+            "avatarUrl": "/_static/3ed0fb233b69a3de.svg",
+            "consumerUuid": "64515a24-8d15-53d2-9424-c14174465126",
+            "confirmed": false,
+            "isCreator": false
+          },
+          {
+            "items": [],
+            "name": "Guest",
+            "isCurrentUser": false,
+            "c2Namespace": "",
+            "isUnregisteredUser": true,
+            "avatarUrl": "/_static/21f488d3249d6f03.svg",
+            "consumerUuid": "7aaaf990-ff64-541a-8645-f605ace814bb",
+            "confirmed": false,
+            "isCreator": false
+          },
+          {
+            "items": [],
+            "name": "Guest",
+            "isCurrentUser": false,
+            "c2Namespace": "",
+            "isUnregisteredUser": true,
+            "avatarUrl": "/_static/d590fac5df89924d.svg",
+            "consumerUuid": "fb3b1347-0c56-5f18-b691-629124c44d59",
+            "confirmed": false,
+            "isCreator": false
+          }
+        ],
+        "lastModifiedTimestamp": 1762247126546,
+        "cartState": "CREATED",
+        "currencyCode": "USD",
+        "isInDraftOrder": true,
+        "numMembers": 22,
+        "isOwner": false,
+        "isActive": true,
+        "isJoinable": true,
+        "draftOrderUuid": "f7cd4530-91e5-404c-a045-48568949ff83",
+        "creatorName": "Muhammad",
+        "shouldPoll": true
+      },
+      "businessDetails": {},
+      "targetDeliveryTimeRange": {
+        "asap": true
+      },
+      "deliveryType": "ASAP",
+      "eaterUuid": "fcab689c-3748-4f4d-83a1-1af523d93e91",
+      "expiresAt": "2025-12-03T13:12:04.897Z",
+      "createdAt": "2025-11-03T13:12:04.897Z",
+      "uuid": "f7cd4530-91e5-404c-a045-48568949ff83",
+      "promotionOptions": {
+        "autoApplyPromotionUUIDs": [],
+        "selectedPromotionInstanceUUIDs": [],
+        "skipApplyingPromotion": false
+      },
+      "useCredits": true,
+      "diningMode": "DELIVERY",
+      "extraPaymentProfiles": [],
+      "interactionType": "door_to_door",
+      "billSplitOption": "CREATOR_PAYS_ALL",
+      "displayName": "Muhammad's group order",
+      "orderMetadata": {
+        "featureMetadata": null,
+        "isGuestOrder": null,
+        "repeatOrderTemplateUUID": null,
+        "handledHighCapacityOrderMetadata": null,
+        "uberMerchantType": {
+          "type": "MERCHANT_TYPE_RESTAURANT",
+          "restaurant": {
+            "type": "RESTAURANT_MERCHANT_TYPE_UNKNOWN"
+          },
+          "grocery": null,
+          "liquor": null,
+          "specialtyFood": null,
+          "convenience": null,
+          "pharmacy": null,
+          "florist": null,
+          "petSupply": null,
+          "retail": null
+        },
+        "fulfillmentStack": null,
+        "orderLineageMetadata": null,
+        "eaterMembership": null,
+        "storeInfo": null,
+        "channel": null,
+        "creationSurface": null,
+        "restrictedItemsMetadata": {
+          "uberProductTypesAndTraits": null,
+          "rootComplyProvider": ""
+        },
+        "groupsMetadata": null,
+        "orderRemediationMetadata": null,
+        "orderLineageMetadataList": null
+      },
+      "customer_phone": "0454856894",
+      "extraction_method": "api"
+    },
+    "phone_extraction": {
+      "customer_phone": "0454856894",
+      "extraction_method": "api",
+      "extraction_success": true,
+      "extraction_details": {
+        "api_extraction": false,
+        "jsdom_extraction": false,
+        "other_methods": false
+      }
+    },
+    "order": {
+      "success": true,
+      "subtotal": 2950,
+      "fees": 742,
+      "taxes": 266,
+      "delivery_fee": 742,
+      "service_fee": 0,
+      "tip": 0,
+      "small_order_fee": 0,
+      "adjustments_fee": 0,
+      "pickup_fee": 0,
+      "other_fees": 0,
+      "has_uber_one": false,
+      "uber_one_benefit": 0,
+      "items": [
+        {
+          "name": "Celsius® Sparkling Orange",
+          "quantity": 3,
+          "price": 510,
+          "customizations": []
+        },
+        {
+          "name": "Subway® Footlong Cookie",
+          "quantity": 2,
+          "price": 710,
+          "customizations": []
+        }
+      ],
+      "restaurant_name": "Subway (720 US Highway 24 South)",
+      "restaurant_address": "720 Us Highway 24 South, Buena Vista, CO 81211",
+      "restaurant_hours": "Available at 7:00 AM",
+      "delivery_address": "United States",
+      "delivery_instructions": null,
+      "restaurant_image_url": "https://tb-static.uber.com/prod/image-proc/processed_images/576657f720a3d336d084464c2dbf6fc4/4f3f62f3f5b6932263e7f27923f93b2d.png",
+      "is_uber_one_eligible": false,
+      "total": 3958,
+      "currency": null,
+      "customer_details": {
+        "customer_favorite_restaurants": [],
+        "customer_dietary_preferences": [],
+        "customer_payment_methods": [],
+        "customer_delivery_addresses": [],
+        "customer_delivery_address": "United States",
+        "customer_coordinates": {
+          "latitude": 38.7945952,
+          "longitude": -106.5348379
+        },
+        "customer_uuid": "f7cd4530-91e5-404c-a045-48568949ff83",
+        "customer_name": "Guest",
+        "customer_address": "United States",
+        "customer_display_name": "Muhammad's group order",
+        "addParticipantsIntended": true,
+        "storeUuid": "8a81f76a-5cee-56cd-8fa1-76ef4421a485",
+        "state": "UNORDERED",
+        "spendingLimitAmount": {
+          "currencyCode": ""
+        },
+        "shoppingCart": {
+          "cartUuid": "8ce812e2-e37a-4e75-a437-9bf94999f322",
+          "storeUuid": "8a81f76a-5cee-56cd-8fa1-76ef4421a485",
+          "items": [
+            {
+              "shoppingCartItemUuid": "86c561bb-8856-443f-a973-5b13807e6b63",
+              "uuid": "4b5b868e-3faa-546b-bb01-3dc966bd9774",
+              "storeUuid": "8a81f76a-5cee-56cd-8fa1-76ef4421a485",
+              "sectionUuid": "dba03512-6a99-55a2-b1ba-98575eba5ad9",
+              "subsectionUuid": "0379a62a-1156-4ddb-a09a-7e1dc45d5dfb",
+              "consumerUuid": "fcab689c-3748-4f4d-83a1-1af523d93e91",
+              "quantity": 3,
+              "specialInstructions": "",
+              "fulfillmentIssueAction": {},
+              "title": "Celsius® Sparkling Orange",
+              "price": 510,
+              "imageURL": "https://tb-static.uber.com/prod/image-proc/processed_images/3aacb2c2a19967f61bb2f9444bb63a96/0fb376d1da56c05644450062d25c5c84.jpeg",
+              "itemQuantity": {
+                "inSellableUnit": {
+                  "value": {
+                    "coefficient": 3,
+                    "exponent": 0
+                  },
+                  "measurementUnit": {
+                    "measurementType": "MEASUREMENT_TYPE_COUNT",
+                    "length": null,
+                    "weight": null,
+                    "volume": null
+                  },
+                  "measurementUnitAbbreviationText": ""
+                },
+                "inPriceableUnit": null
+              },
+              "sellingOption": null,
+              "pricedByUnit": null,
+              "numAlcoholicItems": 0,
+              "customizations": {}
+            },
+            {
+              "shoppingCartItemUuid": "a6f1ad3e-b541-4dae-9001-ac3a7fc43937",
+              "uuid": "051b8191-7f05-5168-aaf9-8426d175a10b",
+              "storeUuid": "8a81f76a-5cee-56cd-8fa1-76ef4421a485",
+              "sectionUuid": "dba03512-6a99-55a2-b1ba-98575eba5ad9",
+              "subsectionUuid": "9188dd03-5822-5b9e-a955-3471d35334a1",
+              "consumerUuid": "fcab689c-3748-4f4d-83a1-1af523d93e91",
+              "quantity": 2,
+              "specialInstructions": "",
+              "fulfillmentIssueAction": {},
+              "title": "Subway® Footlong Cookie",
+              "price": 710,
+              "imageURL": "https://tb-static.uber.com/prod/image-proc/processed_images/5474655c4135975d3dc672157d9c222c/0fb376d1da56c05644450062d25c5c84.jpeg",
+              "itemQuantity": {
+                "inSellableUnit": {
+                  "value": {
+                    "coefficient": 2,
+                    "exponent": 0
+                  },
+                  "measurementUnit": {
+                    "measurementType": "MEASUREMENT_TYPE_COUNT",
+                    "length": null,
+                    "weight": null,
+                    "volume": null
+                  },
+                  "measurementUnitAbbreviationText": ""
+                },
+                "inPriceableUnit": null
+              },
+              "sellingOption": null,
+              "pricedByUnit": null,
+              "numAlcoholicItems": 0,
+              "customizations": {}
+            }
+          ],
+          "groupedItems": [
+            {
+              "items": [],
+              "name": "Guest",
+              "isCurrentUser": true,
+              "c2Namespace": "",
+              "isUnregisteredUser": true,
+              "avatarUrl": "/_static/772b65124f533585.svg",
+              "consumerUuid": "67e316cc-bdb0-5dd9-9435-50ac11edbb57",
+              "confirmed": false,
+              "isCreator": false
+            },
+            {
+              "items": [
+                {
+                  "shoppingCartItemUuid": "86c561bb-8856-443f-a973-5b13807e6b63",
+                  "uuid": "4b5b868e-3faa-546b-bb01-3dc966bd9774",
+                  "storeUuid": "8a81f76a-5cee-56cd-8fa1-76ef4421a485",
+                  "sectionUuid": "dba03512-6a99-55a2-b1ba-98575eba5ad9",
+                  "subsectionUuid": "0379a62a-1156-4ddb-a09a-7e1dc45d5dfb",
+                  "consumerUuid": "fcab689c-3748-4f4d-83a1-1af523d93e91",
+                  "quantity": 3,
+                  "specialInstructions": "",
+                  "fulfillmentIssueAction": {},
+                  "title": "Celsius® Sparkling Orange",
+                  "price": 510,
+                  "imageURL": "https://tb-static.uber.com/prod/image-proc/processed_images/3aacb2c2a19967f61bb2f9444bb63a96/0fb376d1da56c05644450062d25c5c84.jpeg",
+                  "itemQuantity": {
+                    "inSellableUnit": {
+                      "value": {
+                        "coefficient": 3,
+                        "exponent": 0
+                      },
+                      "measurementUnit": {
+                        "measurementType": "MEASUREMENT_TYPE_COUNT",
+                        "length": null,
+                        "weight": null,
+                        "volume": null
+                      },
+                      "measurementUnitAbbreviationText": ""
+                    },
+                    "inPriceableUnit": null
+                  },
+                  "sellingOption": null,
+                  "pricedByUnit": null,
+                  "numAlcoholicItems": 0,
+                  "customizations": {}
+                },
+                {
+                  "shoppingCartItemUuid": "a6f1ad3e-b541-4dae-9001-ac3a7fc43937",
+                  "uuid": "051b8191-7f05-5168-aaf9-8426d175a10b",
+                  "storeUuid": "8a81f76a-5cee-56cd-8fa1-76ef4421a485",
+                  "sectionUuid": "dba03512-6a99-55a2-b1ba-98575eba5ad9",
+                  "subsectionUuid": "9188dd03-5822-5b9e-a955-3471d35334a1",
+                  "consumerUuid": "fcab689c-3748-4f4d-83a1-1af523d93e91",
+                  "quantity": 2,
+                  "specialInstructions": "",
+                  "fulfillmentIssueAction": {},
+                  "title": "Subway® Footlong Cookie",
+                  "price": 710,
+                  "imageURL": "https://tb-static.uber.com/prod/image-proc/processed_images/5474655c4135975d3dc672157d9c222c/0fb376d1da56c05644450062d25c5c84.jpeg",
+                  "itemQuantity": {
+                    "inSellableUnit": {
+                      "value": {
+                        "coefficient": 2,
+                        "exponent": 0
+                      },
+                      "measurementUnit": {
+                        "measurementType": "MEASUREMENT_TYPE_COUNT",
+                        "length": null,
+                        "weight": null,
+                        "volume": null
+                      },
+                      "measurementUnitAbbreviationText": ""
+                    },
+                    "inPriceableUnit": null
+                  },
+                  "sellingOption": null,
+                  "pricedByUnit": null,
+                  "numAlcoholicItems": 0,
+                  "customizations": {}
+                }
+              ],
+              "name": "Muhammad",
+              "isCurrentUser": false,
+              "c2Namespace": "",
+              "isUnregisteredUser": false,
+              "avatarUrl": "/_static/d590fac5df89924d.svg",
+              "consumerUuid": "fcab689c-3748-4f4d-83a1-1af523d93e91",
+              "confirmed": false,
+              "isCreator": true
+            },
+            {
+              "items": [],
+              "name": "Guest",
+              "isCurrentUser": false,
+              "c2Namespace": "",
+              "isUnregisteredUser": true,
+              "avatarUrl": "/_static/21f488d3249d6f03.svg",
+              "consumerUuid": "f15834b6-f1ee-5ba6-8771-a9a2e4932890",
+              "confirmed": false,
+              "isCreator": false
+            },
+            {
+              "items": [],
+              "name": "Guest",
+              "isCurrentUser": false,
+              "c2Namespace": "",
+              "isUnregisteredUser": true,
+              "avatarUrl": "/_static/544c3c3781e0db92.svg",
+              "consumerUuid": "192b9fea-f428-5ba6-9ce3-3e13a073043e",
+              "confirmed": false,
+              "isCreator": false
+            },
+            {
+              "items": [],
+              "name": "Guest",
+              "isCurrentUser": false,
+              "c2Namespace": "",
+              "isUnregisteredUser": true,
+              "avatarUrl": "/_static/21f488d3249d6f03.svg",
+              "consumerUuid": "9007f497-f173-5e32-b13e-13d2662f5240",
+              "confirmed": false,
+              "isCreator": false
+            },
+            {
+              "items": [],
+              "name": "Guest",
+              "isCurrentUser": false,
+              "c2Namespace": "",
+              "isUnregisteredUser": true,
+              "avatarUrl": "/_static/9f716d4b83f1173e.svg",
+              "consumerUuid": "8d8326b9-1537-5c27-9f99-5cd686274e4f",
+              "confirmed": false,
+              "isCreator": false
+            },
+            {
+              "items": [],
+              "name": "Guest",
+              "isCurrentUser": false,
+              "c2Namespace": "",
+              "isUnregisteredUser": true,
+              "avatarUrl": "/_static/9538c4f1cb0d524a.svg",
+              "consumerUuid": "32b8b4ad-e895-5a8b-bd9c-5e94af47b34d",
+              "confirmed": false,
+              "isCreator": false
+            },
+            {
+              "items": [],
+              "name": "Guest",
+              "isCurrentUser": false,
+              "c2Namespace": "",
+              "isUnregisteredUser": true,
+              "avatarUrl": "/_static/21f488d3249d6f03.svg",
+              "consumerUuid": "ef3b35a9-0abf-5975-981f-b72e969a6aeb",
+              "confirmed": false,
+              "isCreator": false
+            },
+            {
+              "items": [],
+              "name": "Guest",
+              "isCurrentUser": false,
+              "c2Namespace": "",
+              "isUnregisteredUser": true,
+              "avatarUrl": "/_static/772b65124f533585.svg",
+              "consumerUuid": "d84b79fe-0dfb-5b4f-96f1-1f2759e2d767",
+              "confirmed": false,
+              "isCreator": false
+            },
+            {
+              "items": [],
+              "name": "Guest",
+              "isCurrentUser": false,
+              "c2Namespace": "",
+              "isUnregisteredUser": true,
+              "avatarUrl": "/_static/9538c4f1cb0d524a.svg",
+              "consumerUuid": "dc952dd8-4593-5fc5-8c40-298d7657f1f2",
+              "confirmed": false,
+              "isCreator": false
+            },
+            {
+              "items": [],
+              "name": "Guest",
+              "isCurrentUser": false,
+              "c2Namespace": "",
+              "isUnregisteredUser": true,
+              "avatarUrl": "/_static/d590fac5df89924d.svg",
+              "consumerUuid": "fdd98e30-5d4e-56f5-ab59-28e085853179",
+              "confirmed": false,
+              "isCreator": false
+            },
+            {
+              "items": [],
+              "name": "Guest",
+              "isCurrentUser": false,
+              "c2Namespace": "",
+              "isUnregisteredUser": true,
+              "avatarUrl": "/_static/d590fac5df89924d.svg",
+              "consumerUuid": "11d453fd-c865-52c2-b77f-5e565c146041",
+              "confirmed": false,
+              "isCreator": false
+            },
+            {
+              "items": [],
+              "name": "Guest",
+              "isCurrentUser": false,
+              "c2Namespace": "",
+              "isUnregisteredUser": true,
+              "avatarUrl": "/_static/d96375ed3fb7384c.svg",
+              "consumerUuid": "8247d050-3c68-57c5-9674-7daebd5ac0e8",
+              "confirmed": false,
+              "isCreator": false
+            },
+            {
+              "items": [],
+              "name": "Guest",
+              "isCurrentUser": false,
+              "c2Namespace": "",
+              "isUnregisteredUser": true,
+              "avatarUrl": "/_static/76cd7fa5fcf22251.svg",
+              "consumerUuid": "ddff6e43-4a5a-5876-b1d5-2f80a6a2a7b5",
+              "confirmed": false,
+              "isCreator": false
+            },
+            {
+              "items": [],
+              "name": "Guest",
+              "isCurrentUser": false,
+              "c2Namespace": "",
+              "isUnregisteredUser": true,
+              "avatarUrl": "/_static/9538c4f1cb0d524a.svg",
+              "consumerUuid": "e5f2546e-4535-56d7-b892-b769f903b5cd",
+              "confirmed": false,
+              "isCreator": false
+            },
+            {
+              "items": [],
+              "name": "Guest",
+              "isCurrentUser": false,
+              "c2Namespace": "",
+              "isUnregisteredUser": true,
+              "avatarUrl": "/_static/9f716d4b83f1173e.svg",
+              "consumerUuid": "7420c49e-1b70-548c-a025-af5eb059c244",
+              "confirmed": false,
+              "isCreator": false
+            },
+            {
+              "items": [],
+              "name": "Guest",
+              "isCurrentUser": false,
+              "c2Namespace": "",
+              "isUnregisteredUser": true,
+              "avatarUrl": "/_static/3ed0fb233b69a3de.svg",
+              "consumerUuid": "274ad323-d761-509e-a141-c04cdc027bd6",
+              "confirmed": false,
+              "isCreator": false
+            },
+            {
+              "items": [],
+              "name": "Guest",
+              "isCurrentUser": false,
+              "c2Namespace": "",
+              "isUnregisteredUser": true,
+              "avatarUrl": "/_static/9538c4f1cb0d524a.svg",
+              "consumerUuid": "4c1bde39-98a5-5db1-8bee-2d9940aa5dad",
+              "confirmed": false,
+              "isCreator": false
+            },
+            {
+              "items": [],
+              "name": "Guest",
+              "isCurrentUser": false,
+              "c2Namespace": "",
+              "isUnregisteredUser": true,
+              "avatarUrl": "/_static/9538c4f1cb0d524a.svg",
+              "consumerUuid": "a0aeeb84-82b0-5be6-a708-4706274defc2",
+              "confirmed": false,
+              "isCreator": false
+            },
+            {
+              "items": [],
+              "name": "Guest",
+              "isCurrentUser": false,
+              "c2Namespace": "",
+              "isUnregisteredUser": true,
+              "avatarUrl": "/_static/3ed0fb233b69a3de.svg",
+              "consumerUuid": "64515a24-8d15-53d2-9424-c14174465126",
+              "confirmed": false,
+              "isCreator": false
+            },
+            {
+              "items": [],
+              "name": "Guest",
+              "isCurrentUser": false,
+              "c2Namespace": "",
+              "isUnregisteredUser": true,
+              "avatarUrl": "/_static/21f488d3249d6f03.svg",
+              "consumerUuid": "7aaaf990-ff64-541a-8645-f605ace814bb",
+              "confirmed": false,
+              "isCreator": false
+            },
+            {
+              "items": [],
+              "name": "Guest",
+              "isCurrentUser": false,
+              "c2Namespace": "",
+              "isUnregisteredUser": true,
+              "avatarUrl": "/_static/d590fac5df89924d.svg",
+              "consumerUuid": "fb3b1347-0c56-5f18-b691-629124c44d59",
+              "confirmed": false,
+              "isCreator": false
+            }
+          ],
+          "lastModifiedTimestamp": 1762247126546,
+          "cartState": "CREATED",
+          "currencyCode": "USD",
+          "isInDraftOrder": true,
+          "numMembers": 22,
+          "isOwner": false,
+          "isActive": true,
+          "isJoinable": true,
+          "draftOrderUuid": "f7cd4530-91e5-404c-a045-48568949ff83",
+          "creatorName": "Muhammad",
+          "shouldPoll": true
+        },
+        "businessDetails": {},
+        "targetDeliveryTimeRange": {
+          "asap": true
+        },
+        "deliveryType": "ASAP",
+        "eaterUuid": "fcab689c-3748-4f4d-83a1-1af523d93e91",
+        "expiresAt": "2025-12-03T13:12:04.897Z",
+        "createdAt": "2025-11-03T13:12:04.897Z",
+        "uuid": "f7cd4530-91e5-404c-a045-48568949ff83",
+        "promotionOptions": {
+          "autoApplyPromotionUUIDs": [],
+          "selectedPromotionInstanceUUIDs": [],
+          "skipApplyingPromotion": false
+        },
+        "useCredits": true,
+        "diningMode": "DELIVERY",
+        "extraPaymentProfiles": [],
+        "interactionType": "door_to_door",
+        "billSplitOption": "CREATOR_PAYS_ALL",
+        "displayName": "Muhammad's group order",
+        "orderMetadata": {
+          "featureMetadata": null,
+          "isGuestOrder": null,
+          "repeatOrderTemplateUUID": null,
+          "handledHighCapacityOrderMetadata": null,
+          "uberMerchantType": {
+            "type": "MERCHANT_TYPE_RESTAURANT",
+            "restaurant": {
+              "type": "RESTAURANT_MERCHANT_TYPE_UNKNOWN"
+            },
+            "grocery": null,
+            "liquor": null,
+            "specialtyFood": null,
+            "convenience": null,
+            "pharmacy": null,
+            "florist": null,
+            "petSupply": null,
+            "retail": null
+          },
+          "fulfillmentStack": null,
+          "orderLineageMetadata": null,
+          "eaterMembership": null,
+          "storeInfo": null,
+          "channel": null,
+          "creationSurface": null,
+          "restrictedItemsMetadata": {
+            "uberProductTypesAndTraits": null,
+            "rootComplyProvider": ""
+          },
+          "groupsMetadata": null,
+          "orderRemediationMetadata": null,
+          "orderLineageMetadataList": null
+        },
+        "customer_phone": "0454856894",
+        "extraction_method": "api"
+      },
+      "real_fees_extracted": true,
+      "extraction_method": "real_extraction",
+      "metadata": {
+        "extraction_timestamp": "2025-11-04T09:05:43.151Z",
+        "real_fees_forced": true,
+        "original_fees": 742,
+        "original_taxes": 266,
+        "real_fees_applied": true
+      },
+      "pricing": {
+        "subtotal": 2950,
+        "delivery_fee": 742,
+        "service_fee": 0,
+        "taxes": 266,
+        "tip": 0,
+        "small_order_fee": 0,
+        "adjustments_fee": 0,
+        "pickup_fee": 0,
+        "other_fees": 0,
+        "total": 3958,
+        "currency": "USD"
+      },
+      "uber_one": {
+        "has_uber_one": false,
+        "uber_one_benefit": 0,
+        "is_uber_one_eligible": false
+      },
+      "_id": "order_1762247143154",
+      "order_id": "MC-C949I9",
+      "user_id": "frontend_user",
+      "cart_url": "https://www.ubereats.com/group-orders/f7cd4530-91e5-404c-a045-48568949ff83/join",
+      "status": "PENDING",
+      "createdAt": "2025-11-04T09:05:43.154Z",
+      "updatedAt": "2025-11-04T09:05:43.154Z",
+      "__v": 0
+    },
+    "real_fees_extracted": true,
+    "extraction_method": "real_extraction",
+    "metadata": {
+      "extraction_timestamp": "2025-11-04T09:05:43.151Z",
+      "real_fees_forced": true,
+      "original_fees": 742,
+      "original_taxes": 266,
+      "real_fees_applied": true,
+      "frontend_ready": true,
+      "consistent_fees": true,
+      "no_estimated_values": true
+    }
+  }
+}
